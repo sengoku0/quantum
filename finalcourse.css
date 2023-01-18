@@ -1,0 +1,54 @@
+
+body{
+    font-family:'quicksand',sans-serif ;
+}
+
+
+.plasma{
+    display: flex;
+   
+    
+    width: 600px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#class-and-icon{
+    width: 370px;
+    margin-top: 20px;
+    font-weight:600;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 2px solid #9fa09f;
+    margin-bottom: 10px;
+
+}
+
+.that-clr{
+    color:#737373 ;
+}
+
+#plasmaimg{
+    margin-left: 25px;
+}
+
+#midpart{
+    width: 500px;
+margin-left: 30px;
+}
+#star{
+margin-left: 10px;
+margin-right: 0px;
+}
+
+#bunch-of-icons{
+   
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 8px;
+  
+}

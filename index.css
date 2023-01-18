@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: 'rem';
+    src: url("font/static/Quicksand-VariableFont_wght.ttf");
+    src: url("font/static/Quicksand-Bold.ttf");
+    src: url("font/static/Quicksand-Light.ttf");
+    src: url("font/static/Quicksand-Medium.ttf");
+    src: url("font/static/Quicksand-Regular.ttf");
+    src: url("font/static/Quicksand-SemiBold.ttf");
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #eeedee;
+    font-family: "rem";
+    margin-bottom: 0px;
+}
+.head{
+    height: 55px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("header\ pattern\ svg.svg");
+    background-color: rgb(4, 20, 4);
+    border-bottom: 4px solid #38c1e5;
+   
+}
+.logohead{
+  margin: 10px 20px;
+  height: 40px;
+
+}
+
+.box{border-top: 5px solid #38c1e5;
+    width: 600px;
+    height: 650px;
+    
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+   background-color: #ffffff;
+
+}
+
+.log{
+    font-family: "rem";
+   
+    height: 60px;
+   
+    display: flex;
+}
+
+#lftarrow{
+   
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logtxt{
+    font-weight: 400;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 27px;
+    
+}
+.radbtn{
+    
+    display: flex;
+    height: 40px;
+    
+    
+}
+
+#rd1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rd2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#radon{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+#dis{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "rem";
+    font-weight:light;
+    color: #333333;
+}
+
+#radoff{
+    margin-top: 10px;
+margin-left: 20px;
+
+}
+#school{
+margin-top: 10px;
+font-size: 15px;
+font-family: "rem";
+font-weight:lighter;
+color: #333333;
+}
+
+.form{
+  
+    height: 510px;
+    padding: 20px;
+  
+}
+
+.tarea{
+width: 560px; 
+height:25px;
+margin-top: 5px;
+border-top: none;
+border-left:none ;
+border-right: none;
+border-bottom: 2px solid #f5f5f5;
+font-size: 18px;
+}
+
+.tarea2{
+    width: 560px; 
+    height:25px;
+    margin-top: 5px;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border-bottom: 2px solid #f5f5f5;
+    font-size: 18px; 
+}
+
+.tarea::placeholder{
+    color: black;
+}
+.tarea2::placeholder{
+    color: rgb(145, 141, 141);
+}
+
+#formdis{
+    margin-top: 35px;
+}
+
+#email{
+    margin-top: 60px;
+}
+
+.remind{
+    margin: 0px;
+color: #1d7b54;
+text-align: right;
+}
+
+#password{
+    margin-top: 60px;
+    width: 550px;
+}
+#passpre{
+    display: flex;
+}
+#eye{
+    align-self: flex-end;
+    margin-bottom: 17px;
+    margin-right: 0px;
+    
+    height: 30px;
+}
+#pre{
+    margin-top: 20px;
+}
+
+#checkbox{
+    margin-top: 40px;
+display: flex;
+}
+
+#btndiv{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#btn{
+    
+  
+    background-color: rgb(60, 189, 107);
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    box-shadow: 3px 5px 8px  #d5d0d0;
+}
+#info{
+    margin-top: 200px;
+    color: #589a7e;
+    text-align: center;
+}
+
+
+#footer{
+    height: 70px;
+    margin-bottom: opx;
+    background-color:#bcc4c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ftlogo{
+    margin-top: 5px;
+    padding-top: 5px;
+    align-self: center;
+    height: 4vh;
+    padding-right: 10px;
+    border-right: 2px solid #7c7c7c;
+}
+
+#fttxt{
+    margin-left: 15px;
+    color:#717272 ;
+}
